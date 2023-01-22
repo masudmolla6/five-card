@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-sec{
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    justify-items: center;
+}
+.container{
+    width: 80%;
+    background-color: rgb(212, 151, 151);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+.card1{
+    background-color: rgba(97, 196, 175, 0.466);
+}
+.card2{
+    background-color: rgba(196, 97, 194, 0.466);
+}
+.card3{
+    background-color: rgba(71, 34, 208, 0.466);
+}
+.card4{
+    background-color: rgba(97, 196, 175, 0.466);
+}
+.card5{
+    background-color: rgba(180, 222, 13, 0.466);
+}
+@media screen and (max-width:576px) {
+    /* .main-sec{
+        width: 100%;
+    } */
+    .container{
+        width: 80%;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
